@@ -29,7 +29,10 @@ Starting inputs are examples: alpha 4 degrees, Re 100,000, Ncrit 9, desired Cl 0
 
 ## Data and models
 
-The raw NASA ZIP is stored under `data/raw`; its SHA-256, URL and source revision are in `data/raw/source.json`. The upstream repository and its documentation are under `upstream/airfoil-learning`. The pipeline reads JSON directly without using the upstream normalized pickle dataset. Source labels are XFOIL results; upstream generation specifies Mach 0.
+- [Download the NASA Airfoil Learning dataset (ZIP, approximately 1.57 GB)](https://nasa-public-data.s3.amazonaws.com/plot3d_utilities/airfoil-learning-dataset.zip)
+- [NASA Airfoil Learning repository and dataset documentation](https://github.com/nasa/airfoil-learning)
+
+The raw NASA ZIP is stored locally under `data/raw` and excluded from this GitHub repository; its SHA-256, URL and source revision are in `data/raw/source.json`. Run `src/download_data.py` to download and verify it. The separate local upstream checkout is also excluded. The pipeline reads JSON directly without using the upstream normalized pickle dataset. Source labels are XFOIL results; upstream generation specifies Mach 0.
 
 Each shape is represented by upper and lower ordinates on 41 cosine-spaced chord locations (82 geometry features). Source surfaces are interpolated with PCHIP. Three more model features are alpha in degrees, log10(Re), and Ncrit. This representation replaces the old BTP dataset's eight CST coefficients; the old predictor is not reused.
 
