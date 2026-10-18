@@ -1,0 +1,33 @@
+{
+  "baseline_sha256": "d37fb953a5681e236ff34ee04e1cdf8f4c8562565b3920c2abdca1895709f65a",
+  "code_sha256": "21cd379bbdd66bd83abe884b1ddd3b1ed900fb50c6cc7eb7a25d89e8d9c7b633",
+  "membership_sha256": "a82da5c358237603dd98b2a92f398da72fc4cdec686d1e1736a261ea1e8ea9ad",
+  "polars_sha256": "b826e96413a5196b393ebb848bad6da2dc1ed1d90b045611bf9a27c4ab912a14",
+  "shapes_sha256": "c65aaa75e253e9d2c683a12b3bc4636bc872ff4448b6e8fdd12a9965b29ee5a6",
+  "seed": 42,
+  "max_epochs": 100,
+  "candidate": "64/64 MLP; batch 1024; learning rate 0.0005; L2 0.01; patience 12",
+  "split_counts": {
+    "train": {
+      "rows": 418184,
+      "airfoils": 438
+    },
+    "validation": {
+      "rows": 89026,
+      "airfoils": 94
+    },
+    "test": {
+      "rows": 89633,
+      "airfoils": 95
+    }
+  },
+  "selection": "Per-target full validation RMSE against unchanged baseline, before any test evaluation",
+  "test_note": "Same previously reported test set; not a new independent confirmation set",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "production_replaced": false
+}

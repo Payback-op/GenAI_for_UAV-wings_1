@@ -1,0 +1,557 @@
+{
+  "features": [
+    "upper_00",
+    "upper_01",
+    "upper_02",
+    "upper_03",
+    "upper_04",
+    "upper_05",
+    "upper_06",
+    "upper_07",
+    "upper_08",
+    "upper_09",
+    "upper_10",
+    "upper_11",
+    "upper_12",
+    "upper_13",
+    "upper_14",
+    "upper_15",
+    "upper_16",
+    "upper_17",
+    "upper_18",
+    "upper_19",
+    "upper_20",
+    "upper_21",
+    "upper_22",
+    "upper_23",
+    "upper_24",
+    "upper_25",
+    "upper_26",
+    "upper_27",
+    "upper_28",
+    "upper_29",
+    "upper_30",
+    "upper_31",
+    "upper_32",
+    "upper_33",
+    "upper_34",
+    "upper_35",
+    "upper_36",
+    "upper_37",
+    "upper_38",
+    "upper_39",
+    "upper_40",
+    "lower_00",
+    "lower_01",
+    "lower_02",
+    "lower_03",
+    "lower_04",
+    "lower_05",
+    "lower_06",
+    "lower_07",
+    "lower_08",
+    "lower_09",
+    "lower_10",
+    "lower_11",
+    "lower_12",
+    "lower_13",
+    "lower_14",
+    "lower_15",
+    "lower_16",
+    "lower_17",
+    "lower_18",
+    "lower_19",
+    "lower_20",
+    "lower_21",
+    "lower_22",
+    "lower_23",
+    "lower_24",
+    "lower_25",
+    "lower_26",
+    "lower_27",
+    "lower_28",
+    "lower_29",
+    "lower_30",
+    "lower_31",
+    "lower_32",
+    "lower_33",
+    "lower_34",
+    "lower_35",
+    "lower_36",
+    "lower_37",
+    "lower_38",
+    "lower_39",
+    "lower_40",
+    "alpha",
+    "log10_Re",
+    "Ncrit"
+  ],
+  "targets": [
+    "Cl",
+    "Cd",
+    "Cm"
+  ],
+  "selected_models": {
+    "Cl": "mlp",
+    "Cd": "mlp",
+    "Cm": "mlp"
+  },
+  "seed": 42,
+  "training_rows_available": 418184,
+  "training_rows_used": 80000,
+  "training_sample_policy": "Fixed seed row sample of training airfoils only, bounded for laptop CPU; evaluation uses all held-out rows",
+  "training_bounds": {
+    "upper_00": [
+      -0.00089,
+      0.0642
+    ],
+    "upper_01": [
+      0.0009673958363626,
+      0.0691798693572667
+    ],
+    "upper_02": [
+      0.0035656349822241,
+      0.082445540968539
+    ],
+    "upper_03": [
+      0.0063121490939578,
+      0.0973404142500766
+    ],
+    "upper_04": [
+      0.0084399727892416,
+      0.1096156473859611
+    ],
+    "upper_05": [
+      0.0102005151051676,
+      0.1199570602988311
+    ],
+    "upper_06": [
+      0.011981892258347,
+      0.1368010878557637
+    ],
+    "upper_07": [
+      0.0138819450739911,
+      0.1563014645454544
+    ],
+    "upper_08": [
+      0.0156785241276046,
+      0.1750167270129136
+    ],
+    "upper_09": [
+      0.0172889038828528,
+      0.1925906426228253
+    ],
+    "upper_10": [
+      0.018864838303762,
+      0.2086819083477911
+    ],
+    "upper_11": [
+      0.0203697958233129,
+      0.2231684055163207
+    ],
+    "upper_12": [
+      0.0217693324013537,
+      0.2359775332991132
+    ],
+    "upper_13": [
+      0.023291495273431,
+      0.2469968002026411
+    ],
+    "upper_14": [
+      0.0229117812992567,
+      0.2561003894460016
+    ],
+    "upper_15": [
+      0.0222069112204023,
+      0.2632268845343224
+    ],
+    "upper_16": [
+      0.0213869835571739,
+      0.2683589903732921
+    ],
+    "upper_17": [
+      0.0204508402233017,
+      0.271528498046949
+    ],
+    "upper_18": [
+      0.0193834061013129,
+      0.2727890060120282
+    ],
+    "upper_19": [
+      0.0181721296126145,
+      0.2722570241135807
+    ],
+    "upper_20": [
+      0.0168105763547437,
+      0.2701810193952447
+    ],
+    "upper_21": [
+      0.0152681118724277,
+      0.2666553552289119
+    ],
+    "upper_22": [
+      0.0134966854227127,
+      0.2619274053152587
+    ],
+    "upper_23": [
+      0.0113844629680245,
+      0.256134633804486
+    ],
+    "upper_24": [
+      0.0115758836210683,
+      0.2494256160571959
+    ],
+    "upper_25": [
+      0.0127191074066498,
+      0.2419411797757679
+    ],
+    "upper_26": [
+      0.0132960590118701,
+      0.2338287846541858
+    ],
+    "upper_27": [
+      0.0120625037583054,
+      0.225221523804018
+    ],
+    "upper_28": [
+      0.0097054575306521,
+      0.2162798017000113
+    ],
+    "upper_29": [
+      0.0038192895124743,
+      0.2071791016388482
+    ],
+    "upper_30": [
+      -0.0025153005967537,
+      0.1980979327103118
+    ],
+    "upper_31": [
+      -0.0087464661852879,
+      0.189225245532245
+    ],
+    "upper_32": [
+      -0.0147183474781683,
+      0.1807214110851928
+    ],
+    "upper_33": [
+      -0.0204041057919423,
+      0.1728122415918531
+    ],
+    "upper_34": [
+      -0.0256287693751879,
+      0.1656502644475922
+    ],
+    "upper_35": [
+      -0.0303600195949096,
+      0.1574020885110338
+    ],
+    "upper_36": [
+      -0.0343463036473221,
+      0.1467622528896711
+    ],
+    "upper_37": [
+      -0.0376055963798779,
+      0.1361835464068388
+    ],
+    "upper_38": [
+      -0.0400181885129659,
+      0.124526884375922
+    ],
+    "upper_39": [
+      -0.0415002396264677,
+      0.1138980698542723
+    ],
+    "upper_40": [
+      -0.042,
+      0.1099
+    ],
+    "lower_00": [
+      -0.00089,
+      0.0642
+    ],
+    "lower_01": [
+      -0.00979365782601,
+      0.0597852556576589
+    ],
+    "lower_02": [
+      -0.0363419585394942,
+      0.0481710936792867
+    ],
+    "lower_03": [
+      -0.0606937069811598,
+      0.0362240409174466
+    ],
+    "lower_04": [
+      -0.0783639207400768,
+      0.0271879989283317
+    ],
+    "lower_05": [
+      -0.0958393303111743,
+      0.0225339857698689
+    ],
+    "lower_06": [
+      -0.1124799505944692,
+      0.019202582207009
+    ],
+    "lower_07": [
+      -0.1280739397315203,
+      0.0163737376008148
+    ],
+    "lower_08": [
+      -0.1424166603136312,
+      0.0159224828532824
+    ],
+    "lower_09": [
+      -0.1553292487154297,
+      0.0183873744983655
+    ],
+    "lower_10": [
+      -0.1666911687823383,
+      0.0349910627996914
+    ],
+    "lower_11": [
+      -0.1764788556308134,
+      0.0557392075941079
+    ],
+    "lower_12": [
+      -0.1847154866173468,
+      0.0755761445794362
+    ],
+    "lower_13": [
+      -0.1914322528534574,
+      0.0927998862418496
+    ],
+    "lower_14": [
+      -0.1966882695288423,
+      0.1070792841028933
+    ],
+    "lower_15": [
+      -0.2005886085286542,
+      0.112878091726747
+    ],
+    "lower_16": [
+      -0.2032851531994133,
+      0.1148254066090634
+    ],
+    "lower_17": [
+      -0.2049171462068865,
+      0.1158829357563536
+    ],
+    "lower_18": [
+      -0.2056043036125137,
+      0.1151932180837188
+    ],
+    "lower_19": [
+      -0.2055186159942366,
+      0.1112035490338917
+    ],
+    "lower_20": [
+      -0.2046490007922207,
+      0.1061410994372774
+    ],
+    "lower_21": [
+      -0.2031069212762289,
+      0.1006459618537431
+    ],
+    "lower_22": [
+      -0.2009663233317548,
+      0.0941718667450152
+    ],
+    "lower_23": [
+      -0.198332098570403,
+      0.0873522385428269
+    ],
+    "lower_24": [
+      -0.1953125502315553,
+      0.0800187594953123
+    ],
+    "lower_25": [
+      -0.1919847134842284,
+      0.072446788078747
+    ],
+    "lower_26": [
+      -0.1884468329514038,
+      0.0648802556136185
+    ],
+    "lower_27": [
+      -0.1847847511746783,
+      0.0572871025920968
+    ],
+    "lower_28": [
+      -0.1810966972479249,
+      0.0521223436831353
+    ],
+    "lower_29": [
+      -0.177454344752972,
+      0.0477931106247859
+    ],
+    "lower_30": [
+      -0.173929367907341,
+      0.0421243350788946
+    ],
+    "lower_31": [
+      -0.1705905687609401,
+      0.0359991858788425
+    ],
+    "lower_32": [
+      -0.1674982591653075,
+      0.0308601758615178
+    ],
+    "lower_33": [
+      -0.1647633649221268,
+      0.0316771507197178
+    ],
+    "lower_34": [
+      -0.1622586473706201,
+      0.0339992172838376
+    ],
+    "lower_35": [
+      -0.1582848699697822,
+      0.0357544090770303
+    ],
+    "lower_36": [
+      -0.1512975387219861,
+      0.0371375030748741
+    ],
+    "lower_37": [
+      -0.1432836249129327,
+      0.0381872436963114
+    ],
+    "lower_38": [
+      -0.1345292623562634,
+      0.0389218036821933
+    ],
+    "lower_39": [
+      -0.1268792299082287,
+      0.0393562528624452
+    ],
+    "lower_40": [
+      -0.12402,
+      0.0395
+    ],
+    "alpha": [
+      -19.75,
+      19.5
+    ],
+    "log10_Re": [
+      4.698970004336019,
+      6.698970004336019
+    ],
+    "Ncrit": [
+      5.0,
+      9.0
+    ]
+  },
+  "condition_bounds": {
+    "alpha": [
+      -19.75,
+      19.5
+    ],
+    "Re": [
+      50000.0,
+      5000000.0
+    ],
+    "Ncrit": [
+      5.0,
+      9.0
+    ]
+  },
+  "selection_rule": "Lowest full validation RMSE independently per target including mean; no test tuning and no train+validation refit",
+  "mlp": "64,64 hidden layers; train-only feature/target StandardScaler; geometry-held-out validation early stopping; Cd trained in log space",
+  "drag_transform": "log(Cd), inverse exp at inference except arithmetic mean baseline",
+  "raw_sha256": "6c052006c8002c6852c4e118c85dcc8a1676d1645f47153efbcda5a761b11e39",
+  "source_revision": "f211e62fab6be125657d49c58fdce1bdeb0d12a8",
+  "membership_sha256": "a82da5c358237603dd98b2a92f398da72fc4cdec686d1e1736a261ea1e8ea9ad",
+  "polars_sha256": "b826e96413a5196b393ebb848bad6da2dc1ed1d90b045611bf9a27c4ab912a14",
+  "shapes_sha256": "c65aaa75e253e9d2c683a12b3bc4636bc872ff4448b6e8fdd12a9965b29ee5a6",
+  "python": "3.13.14",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "source": {
+    "repository": "https://github.com/nasa/airfoil-learning",
+    "revision": "f211e62fab6be125657d49c58fdce1bdeb0d12a8",
+    "dataset_url": "https://nasa-public-data.s3.amazonaws.com/plot3d_utilities/airfoil-learning-dataset.zip",
+    "retrieved_utc": "2026-10-15T09:04:51.006078+00:00",
+    "sha256": "6c052006c8002c6852c4e118c85dcc8a1676d1645f47153efbcda5a761b11e39",
+    "bytes": 1569105133,
+    "json_files": 825,
+    "license_reference": "NASA repository README: NASA Open Source Agreement; upstream files retained under upstream/airfoil-learning",
+    "labels": "Source XFOIL results; no new CFD or experimental measurements"
+  },
+  "data_audit": {
+    "source_sha256": "6c052006c8002c6852c4e118c85dcc8a1676d1645f47153efbcda5a761b11e39",
+    "raw_airfoils": 825,
+    "raw_rows": 768542,
+    "usable_airfoils": 627,
+    "usable_rows": 596843,
+    "rejected_shapes": 195,
+    "rows_in_rejected_shapes": 171529,
+    "invalid_polar_rows": 170,
+    "exact_duplicate_rows_removed": 0,
+    "near_geometry_pairs": 0,
+    "geometry_groups": 627,
+    "conflicting_input_combinations": 0,
+    "conflict_policy": "Retain source labels, report disagreements, keep identical geometry within one split",
+    "near_geometry_tolerance": 0.0001,
+    "grouping_limit": "Sampled-coordinate proximity; related airfoil families are not guaranteed disjoint",
+    "ranges": {
+      "alpha": [
+        -19.75,
+        22.25
+      ],
+      "Re": [
+        50000.0,
+        5000000.0
+      ],
+      "Ncrit": [
+        1.0,
+        9.0
+      ],
+      "Cl": [
+        -2.2899,
+        2.2958
+      ],
+      "Cd": [
+        0.00265,
+        0.59188
+      ],
+      "Cm": [
+        -0.501,
+        0.278
+      ]
+    },
+    "splits": {
+      "test": {
+        "rows": 89633,
+        "airfoils": 95,
+        "groups": 95
+      },
+      "train": {
+        "rows": 418184,
+        "airfoils": 438,
+        "groups": 438
+      },
+      "validation": {
+        "rows": 89026,
+        "airfoils": 94,
+        "groups": 94
+      }
+    }
+  },
+  "limitations": [
+    "XFOIL source labels, not independent experiments",
+    "2D Cl/Cd/Cm only; no Cp model or whole-wing aerodynamic predictor",
+    "Coordinate-proximity groups do not guarantee unrelated airfoil families",
+    "Feature bounds are insufficient to prove physical validity or supported condition combinations",
+    "No Mach input; upstream generation code uses Mach 0",
+    "Surrogate search is exploratory; extreme conditions/stall and generated shapes need independent checking",
+    "3D output is a parametric loft without material, structural, mass or flight labels"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "source": "C:\\Users\\vaibhav\\Desktop\\image.png",
+  "source_sha256": "361cb72865f4a7638321129e5cdaebad7bc9520554b3abed40b4c8ad95181f19",
+  "method": "Axis-calibrated blue-stroke extraction and degree-10 CST least-squares smoothing",
+  "calibration_pixels": {
+    "x_zero": 131.5,
+    "x_one": 904.0,
+    "y_zero": 215.5,
+    "pixels_per_unit_y": 772.5
+  },
+  "trace_columns": 749,
+  "coordinate_rows_in_dat": 161,
+  "fit_rms_pixels_upper_lower": [
+    0.24839541818459207,
+    0.27506261060269005
+  ],
+  "max_abs_fit_residual_pixels": 1.3444533034311847,
+  "max_thickness_ratio": 0.09688297756989606,
+  "max_camber_ratio": 0.014842435850218022,
+  "approx_one_pixel_chord_fraction": 0.0012944983818770227,
+  "limitations": [
+    "Image-derived approximation, not original CAD coordinates",
+    "Axis calibration and line width limit geometric precision",
+    "Closed trailing edge assumed because no finite gap is resolved in the image"
+  ],
+  "analysis_conditions": {
+    "alpha_deg": 4,
+    "Re": 100000,
+    "Mach": 0,
+    "Ncrit": 9,
+    "xtr_top": 1,
+    "xtr_bottom": 1
+  },
+  "condition_note": "Reused prior comparison conditions; these cannot be inferred from the image"
+}

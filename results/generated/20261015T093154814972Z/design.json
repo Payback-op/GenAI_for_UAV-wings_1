@@ -1,0 +1,79 @@
+{
+  "version": "btp1-nasa-v1",
+  "status": "predicted_match",
+  "conditions": {
+    "description": "Editable sample section targets and wing dimensions, not confirmed aircraft requirements.",
+    "airfoil": {
+      "angle_of_attack_deg": 4.0,
+      "reynolds_number": 100000,
+      "ncrit": 9.0,
+      "target_cl": 0.6,
+      "cl_tolerance": 0.05,
+      "maximum_cd": 0.03,
+      "minimum_thickness_ratio": 0.08,
+      "maximum_thickness_ratio": 0.18,
+      "candidate_count": 3000,
+      "random_seed": 42
+    },
+    "wing": {
+      "span_m": 1.8,
+      "root_chord_m": 0.3,
+      "tip_chord_m": 0.15,
+      "leading_edge_sweep_deg": 10.0,
+      "dihedral_deg": 5.0,
+      "root_twist_deg": 0.0,
+      "tip_twist_deg": -2.0,
+      "span_stations": 41
+    }
+  },
+  "predictions": {
+    "Cl": 0.5997443487492047,
+    "Cd": 0.016281487822860805,
+    "Cm": -0.017199731924196944
+  },
+  "maximum_thickness_ratio": 0.09671256838453572,
+  "geometry_provenance": {
+    "method": "convex blend of two training geometries",
+    "parents": [
+      "ea61012-il - EPPLER EA 6(-1)-012 AIRFOIL",
+      "fx66h80-il - FX 66-H-80"
+    ],
+    "blend_weight": 0.42402138120078225,
+    "nearest_training_shape": "pw75-pw - PW75",
+    "sampled_coordinate_distance": 0.0236314331472953,
+    "novel_on_saved_grid": true
+  },
+  "dimensions": {
+    "span_m": 1.8,
+    "reference_planform_area_m2": 0.40499999999999997,
+    "reference_aspect_ratio": 8.000000000000002,
+    "taper_ratio": 0.5,
+    "area_definition": "Untwisted trapezoidal reference planform"
+  },
+  "mesh_checks": {
+    "vertices": 3280,
+    "triangles": 6556,
+    "closed_manifold": true,
+    "consistent_orientation": true,
+    "degenerate_faces": 0,
+    "signed_volume_m3": 0.00582931805412587,
+    "finite_vertices": true
+  },
+  "output_folder": "C:\\BTP1\\results\\generated\\20261015T093154814972Z",
+  "predictor_sha256": "d37fb953a5681e236ff34ee04e1cdf8f4c8562565b3920c2abdca1895709f65a",
+  "source_sha256": "6c052006c8002c6852c4e118c85dcc8a1676d1645f47153efbcda5a761b11e39",
+  "generator_type": "Surrogate-guided training-shape selection/blending plus parametric wing loft; no trained 3D model",
+  "export_units": {
+    "airfoil.dat": "chord normalized",
+    "wing_mm.stl": "numerical millimetres",
+    "wing_m.obj": "metres"
+  },
+  "complete_wing_aerodynamic_predictions": null,
+  "physical_requirements_verified": false,
+  "limitations": [
+    "Section coefficient target match is a model estimate",
+    "Geometry blending is not a learned conditional neural generator",
+    "Within individual feature ranges does not establish a supported joint operating point",
+    "No full-wing, structural, material, mass or flight validation"
+  ]
+}

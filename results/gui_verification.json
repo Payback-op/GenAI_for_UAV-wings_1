@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "method": "combined_app.py --smoke-test",
+  "checks": [
+    "15 condition/dimension controls",
+    "saved 2D and 3D canvases rendered",
+    "changed-input status",
+    "status restored after input reset"
+  ]
+}

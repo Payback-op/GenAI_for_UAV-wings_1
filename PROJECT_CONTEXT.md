@@ -1,0 +1,13 @@
+# BTP1 handoff — 15 October 2026
+
+This is the user's second wing/airfoil sample project, created alongside `C:\BTP`. The user explicitly selected NASA's `nasa/airfoil-learning` dataset and requested prediction models plus the same 2D airfoil/3D wing generator workflow.
+
+Read README.md and results/FIRST_MODEL_REPORT.md first. This directory has independent data, code, model artifacts, example outputs, configuration and a Python virtual environment. The environment currently uses the Python 3.13 runtime under C:\BTP; requirements.lock.txt supports recreation with another installed Python 3.13.
+
+Raw dataset: NASA's 1,569,105,133-byte ZIP with 825 JSON airfoil files and 768,542 polar records. Data provenance and checksum are in data/raw/source.json. Preprocessing retained 596,843 polar records for 627 airfoils, excluded 195 geometries and 170 polar records, and found no exact-input label conflicts. Valid empty airfoil files provide no rows. The geometry gate rejects crossings and a non-shared leading edge on the normalized grid instead of silently changing source geometry. Geometry-proximity grouping does not guarantee complete family separation.
+
+Model input is 82 upper/lower coordinate samples plus alpha, log10(Re) and Ncrit. Targets are Cl, Cd and Cm. Do not load the old BTP CST-based predictor into this project. Random Forest, XGBoost and an MLP are compared with a mean reference. A fixed seed 80,000-row training subset is used for laptop CPU cost; all validation/test rows are scored. Models are selected using validation RMSE separately per target. Detailed results live in the generated report and CSVs, not in this handoff.
+
+The desktop app is src/combined_app.py, launched with run_app.bat or Ctrl+Shift+B. It searches training shapes and convex coordinate blends, then lofts the selected section across the full wing. The matching 2D/3D results are saved together under results/generated. This is surrogate-guided candidate search and parametric geometry, not a learned 3D aerodynamic model or a trained conditional shape network. The app shows section Cl/Cd/Cm only. Preserve explicit no-match reporting, training-domain rejection, export units, provenance and limitations.
+
+The user's larger B.Tech project concerns generative design of UAV wings. Detailed physics was deferred in the earlier project. This sample does not establish whole-wing performance, structural strength, mass, materials, flight control or flight feasibility. No CFD or experimental validation is added here. Initial section targets and dimensions are editable examples, not confirmed aircraft requirements.

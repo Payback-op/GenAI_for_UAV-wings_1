@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/nasa/airfoil-learning",
+  "revision": "f211e62fab6be125657d49c58fdce1bdeb0d12a8",
+  "dataset_url": "https://nasa-public-data.s3.amazonaws.com/plot3d_utilities/airfoil-learning-dataset.zip",
+  "retrieved_utc": "2026-10-15T09:04:51.006078+00:00",
+  "sha256": "6c052006c8002c6852c4e118c85dcc8a1676d1645f47153efbcda5a761b11e39",
+  "bytes": 1569105133,
+  "json_files": 825,
+  "license_reference": "NASA repository README: NASA Open Source Agreement; upstream files retained under upstream/airfoil-learning",
+  "labels": "Source XFOIL results; no new CFD or experimental measurements"
+}

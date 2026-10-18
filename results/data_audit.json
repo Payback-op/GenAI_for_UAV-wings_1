@@ -1,0 +1,60 @@
+{
+  "source_sha256": "6c052006c8002c6852c4e118c85dcc8a1676d1645f47153efbcda5a761b11e39",
+  "raw_airfoils": 825,
+  "raw_rows": 768542,
+  "usable_airfoils": 627,
+  "usable_rows": 596843,
+  "rejected_shapes": 195,
+  "rows_in_rejected_shapes": 171529,
+  "invalid_polar_rows": 170,
+  "exact_duplicate_rows_removed": 0,
+  "near_geometry_pairs": 0,
+  "geometry_groups": 627,
+  "conflicting_input_combinations": 0,
+  "conflict_policy": "Retain source labels, report disagreements, keep identical geometry within one split",
+  "near_geometry_tolerance": 0.0001,
+  "grouping_limit": "Sampled-coordinate proximity; related airfoil families are not guaranteed disjoint",
+  "ranges": {
+    "alpha": [
+      -19.75,
+      22.25
+    ],
+    "Re": [
+      50000.0,
+      5000000.0
+    ],
+    "Ncrit": [
+      1.0,
+      9.0
+    ],
+    "Cl": [
+      -2.2899,
+      2.2958
+    ],
+    "Cd": [
+      0.00265,
+      0.59188
+    ],
+    "Cm": [
+      -0.501,
+      0.278
+    ]
+  },
+  "splits": {
+    "test": {
+      "rows": 89633,
+      "airfoils": 95,
+      "groups": 95
+    },
+    "train": {
+      "rows": 418184,
+      "airfoils": 438,
+      "groups": 438
+    },
+    "validation": {
+      "rows": 89026,
+      "airfoils": 94,
+      "groups": 94
+    }
+  }
+}

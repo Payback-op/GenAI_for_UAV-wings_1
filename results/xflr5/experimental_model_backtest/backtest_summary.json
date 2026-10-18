@@ -1,0 +1,88 @@
+{
+  "reference": "XFLR5 v6.62, 280-panel refinement of the original exported foil",
+  "model_path": "C:\\BTP1\\results\\experiments\\full_training_20261018T213137Z\\airfoil_candidate.joblib",
+  "model_sha256": "d13ac49ff494aac5b338b740a601e639bd459d9a13c36dc345da4acb60fa8a82",
+  "conditions": {
+    "alpha_deg": 4,
+    "Re": 100000,
+    "Mach": 0,
+    "Ncrit": 9,
+    "xtr_top": 1,
+    "xtr_bottom": 1
+  },
+  "geometry_provenance": {
+    "method": "training catalog geometry",
+    "parents": [
+      "goe766-il - GOE 766 AIRFOIL"
+    ],
+    "blend_weight": 1.0,
+    "nearest_training_shape": "goe766-il - GOE 766 AIRFOIL",
+    "sampled_coordinate_distance": 0.0,
+    "novel_on_saved_grid": false
+  },
+  "at_design_point": [
+    {
+      "panels": 280,
+      "coefficient": "Cl",
+      "model": 0.6000997194300619,
+      "xflr5": 0.6108,
+      "absolute_error": 0.010700280569938103,
+      "relative_absolute_error_percent": 1.7518468516598074
+    },
+    {
+      "panels": 280,
+      "coefficient": "Cd",
+      "model": 0.01912053995947833,
+      "xflr5": 0.01946,
+      "absolute_error": 0.0003394600405216726,
+      "relative_absolute_error_percent": 1.7443989749315136
+    },
+    {
+      "panels": 280,
+      "coefficient": "Cm",
+      "model": -0.022818741029868757,
+      "xflr5": -0.0131,
+      "absolute_error": 0.009718741029868756,
+      "relative_absolute_error_percent": 74.18886282342561
+    }
+  ],
+  "panel_change_240_to_280": {
+    "Cl": {
+      "absolute": 0.0021999999999999797,
+      "percent_of_280_panel_value": 0.36018336607727236
+    },
+    "Cd": {
+      "absolute": 1.9999999999999185e-05,
+      "percent_of_280_panel_value": 0.10277492291880362
+    },
+    "Cm": {
+      "absolute": 0.0003999999999999993,
+      "percent_of_280_panel_value": 3.053435114503811
+    }
+  },
+  "solver_target_match_at_four_degrees": true,
+  "converged_counts": {
+    "81": 28,
+    "160": 29,
+    "240": 29,
+    "280": 28
+  },
+  "missing_requested_angles": {
+    "81": [
+      -2.5
+    ],
+    "160": [],
+    "240": [],
+    "280": [
+      0.0
+    ]
+  },
+  "error_definition": "Absolute(model minus XFLR5) / absolute(XFLR5) * 100 at the specified point",
+  "limits": [
+    "Single selected catalog airfoil, present in the training split",
+    "Fresh solver consistency check, not experimental validation or overall model accuracy",
+    "Refinement interpolates the original geometry; finite discretization sensitivity remains",
+    "Cm in the experimental bundle is the retained baseline predictor",
+    "300-panel initialization was rejected by XFLR5; no results from that foil are used"
+  ]
+}

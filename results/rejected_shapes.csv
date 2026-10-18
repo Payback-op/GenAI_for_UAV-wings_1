@@ -1,0 +1,196 @@
+member,reason,rows
+json/ag04-il - AG04.json,Crossing or unsupported source geometry,752
+json/ag09-il - AG09.json,Crossing or unsupported source geometry,635
+json/ag11-il - AG11.json,Crossing or unsupported source geometry,793
+json/ag24-il - AG24 Bubble Dancer DLG by Mark Drela.json,Crossing or unsupported source geometry,841
+json/ag26-il - AG26 Bubble Dancer DLG by Mark Drela.json,Crossing or unsupported source geometry,762
+json/ag35-il - AG35.json,Crossing or unsupported source geometry,932
+json/ag37-il - AG37.json,Crossing or unsupported source geometry,861
+json/ag44ct02r-il - AG44ct -02f.json,Crossing or unsupported source geometry,816
+json/ag45c03-il - AG45c -03f.json,Crossing or unsupported source geometry,802
+json/ag46c03-il - AG46c -03f.json,Crossing or unsupported source geometry,750
+json/ag47c03-il - AG47c -03f.json,Crossing or unsupported source geometry,684
+json/ah93156-il - AH 93-156.json,Crossing or unsupported source geometry,1080
+json/ah93k130-il - AH 93-K-130_15.json,Crossing or unsupported source geometry,1020
+json/ah94156-il - AH 94-156.json,Crossing or unsupported source geometry,1059
+json/apex16-il - Apex 16 (normalized using XFOIL date021206).json,Crossing or unsupported source geometry,606
+json/as5048-il - AS5048 (18%).json,Crossing or unsupported source geometry,1017
+json/cp-060-050-gn - Cambered plate C=6% T=5% R=2.11.json,Crossing or unsupported source geometry,1201
+json/cp-140-050-gn - Cambered plate C=14% T=5% R=0.96.json,Crossing or unsupported source geometry,1308
+json/cp-180-050-gn - Cambered plate C=18% T=5% R=0.78.json,Crossing or unsupported source geometry,1091
+json/dsma523a-il - DSMA-523A AIRFOIL.json,Crossing or unsupported source geometry,0
+json/du06-w-200-dt - DU 06-W-200  VAWT airfoil.json,Crossing or unsupported source geometry,1339
+json/du8608418-il - DU86-084_18 8.44%.json,Crossing or unsupported source geometry,745
+json/e176-il - E176  (8.83%).json,Crossing or unsupported source geometry,413
+json/e180-il - E180  (8.59%).json,Crossing or unsupported source geometry,714
+json/e184-il - E184  (8.33%).json,Crossing or unsupported source geometry,393
+json/e193-il - E193  (10.22%).json,Crossing or unsupported source geometry,254
+json/e203-il - E203  (13.64%).json,Crossing or unsupported source geometry,573
+json/e210-il - E210  (13.64%).json,Crossing or unsupported source geometry,895
+json/e212-il - E212  (10.55%).json,Crossing or unsupported source geometry,227
+json/e216-il - E216  (10.4%).json,Crossing or unsupported source geometry,281
+json/e221-il - E221  (9.39%).json,Crossing or unsupported source geometry,844
+json/e224-il - E224  (10.17%).json,Crossing or unsupported source geometry,824
+json/e297-il - EPPLER 297 AIRFOIL.json,Crossing or unsupported source geometry,883
+json/e326-il - EPPLER 326 AIRFOIL.json,Crossing or unsupported source geometry,1010
+json/e328-il - EPPLER 328 AIRFOIL.json,Crossing or unsupported source geometry,980
+json/e330-il - EPPLER 330 AIRFOIL.json,Crossing or unsupported source geometry,935
+json/e332-il - EPPLER 332 AIRFOIL.json,Crossing or unsupported source geometry,912
+json/e334-il - EPPLER 334 AIRFOIL.json,Crossing or unsupported source geometry,932
+json/e336-il - EPPLER 336 AIRFOIL.json,Crossing or unsupported source geometry,943
+json/e338-il - EPPLER 338 AIRFOIL.json,Crossing or unsupported source geometry,911
+json/e340-il - EPPLER 340 AIRFOIL.json,Crossing or unsupported source geometry,941
+json/e342-il - EPPLER 342 AIRFOIL.json,Crossing or unsupported source geometry,946
+json/e344-il - EPPLER 344 AIRFOIL.json,Crossing or unsupported source geometry,936
+json/e361-il - EPPLER 361 AIRFOIL.json,Crossing or unsupported source geometry,1056
+json/e376-il - EPPLER 376 AIRFOIL.json,Crossing or unsupported source geometry,617
+json/e377m-il - EPPLER 377 (MODIFIED) AIRFOIL.json,Crossing or unsupported source geometry,765
+json/e379-il - EPPLER 379 AIRFOIL.json,Crossing or unsupported source geometry,427
+json/e387-il - E387.json,Crossing or unsupported source geometry,204
+json/e398-il - EPPLER 398 AIRFOIL.json,Crossing or unsupported source geometry,1079
+json/e403-il - EPPLER 403 AIRFOIL.json,Crossing or unsupported source geometry,1003
+json/e417-il - EPPLER 417 AIRFOIL.json,Crossing or unsupported source geometry,916
+json/e421-il - EPPLER 421 AIRFOIL.json,Crossing or unsupported source geometry,915
+json/e423-il - E423.json,Crossing or unsupported source geometry,903
+json/e428-il - EPPLER 428 AIRFOIL.json,Crossing or unsupported source geometry,1117
+json/e432-il - EPPLER 432 AIRFOIL.json,Crossing or unsupported source geometry,1123
+json/e434-il - EPPLER 434 AIRFOIL.json,Crossing or unsupported source geometry,1047
+json/e471-il - E471  (6.25%).json,Crossing or unsupported source geometry,485
+json/e485-il - EPPLER 485 AIRFOIL.json,Crossing or unsupported source geometry,1148
+json/e502-il - EPPLER 502 AIRFOIL.json,Crossing or unsupported source geometry,1128
+json/e521-il - EPPLER 521 AIRFOIL.json,Crossing or unsupported source geometry,1241
+json/e541-il - EPPLER 541 AIRFOIL.json,Crossing or unsupported source geometry,1072
+json/e543-il - EPPLER 543 AIRFOIL.json,Crossing or unsupported source geometry,1155
+json/e545-il - EPPLER 545 AIRFOIL.json,Crossing or unsupported source geometry,1166
+json/e547-il - EPPLER 547 AIRFOIL.json,Crossing or unsupported source geometry,1012
+json/e549-il - EPPLER 549 AIRFOIL.json,Crossing or unsupported source geometry,1161
+json/e551-il - EPPLER 551 AIRFOIL.json,Crossing or unsupported source geometry,1246
+json/e553-il - EPPLER 553 AIRFOIL.json,Crossing or unsupported source geometry,1277
+json/e555-il - EPPLER 555 AIRFOIL.json,Crossing or unsupported source geometry,1246
+json/e557-il - EPPLER 557 AIRFOIL.json,Crossing or unsupported source geometry,1232
+json/e559-il - EPPLER 559 AIRFOIL.json,Crossing or unsupported source geometry,1163
+json/e561-il - EPPLER 561 AIRFOIL.json,Crossing or unsupported source geometry,1118
+json/e582-il - EPPLER 582 AIRFOIL.json,Crossing or unsupported source geometry,1030
+json/e584-il - EPPLER 584 AIRFOIL.json,Crossing or unsupported source geometry,1041
+json/e587-il - EPPLER 587 AIRFOIL.json,Crossing or unsupported source geometry,1071
+json/e591-il - E591.json,Crossing or unsupported source geometry,1005
+json/e598-il - EPPLER 598 AIRFOIL.json,Crossing or unsupported source geometry,967
+json/e604-il - EPPLER 604 AIRFOIL.json,Crossing or unsupported source geometry,1177
+json/e62-il - E62  (5.62%).json,Crossing or unsupported source geometry,269
+json/e63-il - E63  (4.25%).json,Crossing or unsupported source geometry,477
+json/e636-il - EPPLER 636 AIRFOIL.json,Crossing or unsupported source geometry,943
+json/e638-il - EPPLER 638 AIRFOIL.json,Crossing or unsupported source geometry,903
+json/e64-il - E64  (8.45%).json,Crossing or unsupported source geometry,179
+json/e654-il - EPPLER 654 AIRFOIL.json,Crossing or unsupported source geometry,1095
+json/e656-il - EPPLER 656 AIRFOIL.json,Crossing or unsupported source geometry,1066
+json/e66-il - EPPLER 66 AIRFOIL.json,Crossing or unsupported source geometry,1012
+json/e664-il - EPPLER 664 AIRFOIL.json,Crossing or unsupported source geometry,1146
+json/e694-il - EPPLER 694 AIRFOIL.json,Crossing or unsupported source geometry,1011
+json/e715-il - EPPLER 715 AIRFOIL.json,Crossing or unsupported source geometry,1199
+json/e793-il - EPPLER 793 AIRFOIL.json,Crossing or unsupported source geometry,1126
+json/e818-il - EPPLER 818 HYDROFOIL AIRFOIL.json,Crossing or unsupported source geometry,592
+json/e856-il - EPPLER 856 AIRFOIL.json,Crossing or unsupported source geometry,1115
+json/e858-il - EPPLER 858 AIRFOIL.json,Crossing or unsupported source geometry,1158
+json/e874-il - EPPLER 874 HYDROFOIL AIRFOIL.json,Crossing or unsupported source geometry,628
+json/e908-il - EPPLER 908 AIRFOIL.json,Crossing or unsupported source geometry,543
+json/fx63147-il - FX 63-147 AIRFOIL.json,Crossing or unsupported source geometry,0
+json/fx79w660a-il - FX 79-W-660A.json,Crossing or unsupported source geometry,1024
+json/giiid-il - GIII BL86 AIRFOIL (modified line 31).json,Crossing or unsupported source geometry,410
+json/goe290-il - GOE 290 (MVA 290) AIRFOIL.json,Crossing or unsupported source geometry,1086
+json/goe386-il - GOE 386 AIRFOIL.json,Crossing or unsupported source geometry,1088
+json/goe416a-il - GOE 416A AIRFOIL.json,Crossing or unsupported source geometry,846
+json/goe435-il - GOE 435 AIRFOIL.json,Crossing or unsupported source geometry,1118
+json/goe522-il - GOE 522 AIRFOIL.json,Crossing or unsupported source geometry,1179
+json/goe601-il - GOE 601 AIRFOIL.json,Crossing or unsupported source geometry,1292
+json/goe646-il - GOE 646 AIRFOIL.json,Crossing or unsupported source geometry,1197
+json/goe679-il - GOE 679 AIRFOIL.json,Crossing or unsupported source geometry,1145
+json/hs1430-il - HAM-STD HS1-430 AIRFOIL.json,Crossing or unsupported source geometry,1185
+json/hs1712-il - HAM-STD HS1-712 AIRFOIL.json,Crossing or unsupported source geometry,1016
+json/ht12-il - HT12.json,Crossing or unsupported source geometry,702
+json/kc135b-il - KC-135 BL124.32 AIRFOIL.json,Crossing or unsupported source geometry,1045
+json/kc135d-il - KC-135 BL351.6 AIRFOIL.json,Crossing or unsupported source geometry,782
+json/mh104-il - MH 104  15.28%.json,Crossing or unsupported source geometry,1198
+json/mh108-il - MH 108  11.98%.json,Crossing or unsupported source geometry,1132
+json/mh112-il - MH 112  Airfoil.json,Crossing or unsupported source geometry,998
+json/mh114-il - MH 114  13.02%.json,Crossing or unsupported source geometry,1000
+json/mh120-il - MH 120  11.57%.json,Crossing or unsupported source geometry,532
+json/mh122-il - MH 122  9.32%.json,Crossing or unsupported source geometry,707
+json/mh18-il - MH 18  11.16%.json,Crossing or unsupported source geometry,888
+json/mh200-il - MH 200  12.97%.json,Crossing or unsupported source geometry,1020
+json/mh22-il - MH 22  7.2%.json,Crossing or unsupported source geometry,655
+json/mh24-il - MH 24  9.01%.json,Crossing or unsupported source geometry,741
+json/mh26-il - MH 26  10.99%.json,Crossing or unsupported source geometry,876
+json/mh30-il - MH 30  7.84%.json,Crossing or unsupported source geometry,752
+json/mh42-il - MH 42  8.94%.json,Crossing or unsupported source geometry,845
+json/mh44-il - MH 44  9.66%.json,Crossing or unsupported source geometry,932
+json/mh46-il - MH 46  9.1%.json,Crossing or unsupported source geometry,862
+json/mh61-il - MH 61  10.26%.json,Crossing or unsupported source geometry,825
+json/mh64-il - MH 64  8.59%.json,Crossing or unsupported source geometry,821
+json/mh78-il - MH 78  14.47%.json,Crossing or unsupported source geometry,973
+json/mh81-il - MH 81  13%.json,Crossing or unsupported source geometry,899
+json/mh83-il - MH 83  13.29%.json,Crossing or unsupported source geometry,866
+json/mh91-il - MH 91  14.98%.json,Crossing or unsupported source geometry,1140
+json/mh93-il - MH 93  15.98%.json,Crossing or unsupported source geometry,1176
+json/mh95-il - MH 95  15.86%.json,Crossing or unsupported source geometry,1129
+json/mrc-16-il - MRC-16.json,Crossing or unsupported source geometry,1124
+json/naca22112-jf - NACA 22112.json,Crossing or unsupported source geometry,1028
+json/naca23112-jf - NACA 23112.json,Crossing or unsupported source geometry,1046
+json/naca24112-jf - NACA 24112.json,Crossing or unsupported source geometry,1030
+json/naca25112-jf - NACA 25112.json,Crossing or unsupported source geometry,1074
+json/prandtl-d-root-ns - Prandtl-D root - NASA Preliminary Research Aerodynamic Design To Lower Drag.json,Crossing or unsupported source geometry,0
+json/psu-90-125wl-il - PSU-90-125WL.json,Crossing or unsupported source geometry,553
+json/s1020-il - Ornithopter airfoil..json,Crossing or unsupported source geometry,464
+json/s102s-il - SOMERS S102 AIRFOIL (SHARP).json,Crossing or unsupported source geometry,1073
+json/s1210-il - S1210 12%.json,Crossing or unsupported source geometry,779
+json/s1221-il - S1221  w_o flap.json,Crossing or unsupported source geometry,858
+json/s1223rtl-il - S1223 RTL.json,Crossing or unsupported source geometry,781
+json/s2050-il - S2050 8.93%.json,Crossing or unsupported source geometry,778
+json/s2060-il - S2060 8%.json,Crossing or unsupported source geometry,699
+json/s2091-il - S2091-101-83.json,Crossing or unsupported source geometry,1024
+json/s3002-il - SELIG 3002-099-83.json,Crossing or unsupported source geometry,306
+json/s3021-il - S3021-095-84.json,Crossing or unsupported source geometry,518
+json/s3025-il - S3025 9.38%.json,Crossing or unsupported source geometry,198
+json/s4062-il - S4062-095-87.json,Crossing or unsupported source geometry,947
+json/s4094-il - S4094 (root airfoil designed for and used on the E-flite UMX ASK-21 scale RC sailplane).json,Crossing or unsupported source geometry,725
+json/s4096-il - S4096 (designed for the E-flite UMX ASK-21 scale RC sailplane).json,Crossing or unsupported source geometry,801
+json/s4233-il - S4233-136-84.json,Crossing or unsupported source geometry,317
+json/s5020-il - S5020.json,Crossing or unsupported source geometry,734
+json/s6062-il - S6062 8%.json,Crossing or unsupported source geometry,696
+json/s7012-il - S7012 8.75%.json,Crossing or unsupported source geometry,583
+json/s7075-il - S7075 (9%).json,Crossing or unsupported source geometry,857
+json/s8036-il - S8036 (16%).json,Crossing or unsupported source geometry,1126
+json/s8038-il - S8038 (13%).json,Crossing or unsupported source geometry,1153
+json/s8052-il - S8052 (11.88%).json,Crossing or unsupported source geometry,970
+json/s8065-il - S8065 (11% version of S8064).json,Crossing or unsupported source geometry,886
+json/s814-nr - NREL's S814 Airfoil.json,Crossing or unsupported source geometry,1037
+json/s816-nr - NREL's S816 Airfoil.json,Crossing or unsupported source geometry,1070
+json/s818-nr - NREL's S818 Airfoil.json,Crossing or unsupported source geometry,1016
+json/s820-nr - NREL's S820 Airfoil.json,Crossing or unsupported source geometry,1034
+json/s822-nr - NREL's S822 Airfoil.json,Crossing or unsupported source geometry,1290
+json/s825-nr - NREL's S825 Airfoil.json,Crossing or unsupported source geometry,1152
+json/s827-nr - NREL's S827 Airfoil.json,Crossing or unsupported source geometry,996
+json/s829-nr - NREL's S829 Airfoil.json,Crossing or unsupported source geometry,1127
+json/s831-nr - NREL's S831 Airfoil.json,Crossing or unsupported source geometry,970
+json/s833-nr - NREL's S833 Airfoil.json,Crossing or unsupported source geometry,1353
+json/s835-nr - NREL's S835 Airfoil.json,Crossing or unsupported source geometry,1305
+json/s9037-il - S9037 (9%).json,Crossing or unsupported source geometry,886
+json/sa7035-il - SA7035.json,Crossing or unsupported source geometry,854
+json/sa7038-il - SA7038.json,Crossing or unsupported source geometry,829
+json/sd2030-il - SD2030-086-88.json,Crossing or unsupported source geometry,899
+json/sd5060-il - SD5060 (9.5%).json,Crossing or unsupported source geometry,824
+json/sd6080-il - SD6080 (9.2%).json,Crossing or unsupported source geometry,161
+json/sd7032-il - SD7032-099-88.json,Crossing or unsupported source geometry,935
+json/sd7037-il - SD7037-092-88.json,Crossing or unsupported source geometry,347
+json/sd7062-il - SD7062 (14%).json,Crossing or unsupported source geometry,1067
+json/sd8000-il - SD8000-089-88.json,Crossing or unsupported source geometry,845
+json/sd8040-il - SD8040 (10%).json,Crossing or unsupported source geometry,774
+json/sg6041-il - SG6041.json,Crossing or unsupported source geometry,717
+json/sg6043-il - SG6043.json,Crossing or unsupported source geometry,879
+json/sg6051-il - SG6051.json,Crossing or unsupported source geometry,1020
+json/sp4721la-po - SP4721LA.json,Crossing or unsupported source geometry,713
+json/ste87151-il - EPPLER STE 871-514 AIRFOIL.json,Crossing or unsupported source geometry,993
+json/stf86361-il - EPPLER STF 863-615 AIRFOIL.json,Crossing or unsupported source geometry,789
+json/tempest1-il - HAWKER TEMPEST 37.5% SEMISPAN AIRFOIL.json,Crossing or unsupported source geometry,1303
+json/tempest3-il - HAWKER TEMPEST 96.77% SEMISPAN AIRFOIL.json,Crossing or unsupported source geometry,855
+json/ua79sfm-il - UNIVERSITY OF ALBERTA UA 79-SF-187 AIRFOIL MAIN ELEMENT.json,Crossing or unsupported source geometry,0
+json/ys930-il - YS-930.json,Crossing or unsupported source geometry,663

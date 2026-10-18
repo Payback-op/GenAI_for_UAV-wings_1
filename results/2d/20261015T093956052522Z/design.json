@@ -1,0 +1,45 @@
+{
+  "version": "btp1-nasa-2d-v1",
+  "status": "predicted_match",
+  "conditions": {
+    "angle_of_attack_deg": 4.0,
+    "reynolds_number": 100000,
+    "ncrit": 9.0,
+    "target_cl": 0.6,
+    "cl_tolerance": 0.05,
+    "maximum_cd": 0.03,
+    "minimum_thickness_ratio": 0.08,
+    "maximum_thickness_ratio": 0.18,
+    "candidate_count": 3000,
+    "random_seed": 42
+  },
+  "predictions": {
+    "Cl": 0.5997443487492047,
+    "Cd": 0.016281487822860805,
+    "Cm": -0.017199731924196944
+  },
+  "maximum_thickness_ratio": 0.09671256838453572,
+  "geometry_provenance": {
+    "method": "convex blend of two training geometries",
+    "parents": [
+      "ea61012-il - EPPLER EA 6(-1)-012 AIRFOIL",
+      "fx66h80-il - FX 66-H-80"
+    ],
+    "blend_weight": 0.42402138120078225,
+    "nearest_training_shape": "pw75-pw - PW75",
+    "sampled_coordinate_distance": 0.0236314331472953,
+    "novel_on_saved_grid": true
+  },
+  "predicted_matching_candidates": 100,
+  "candidate_count_note": "Matching count covers the saved top 100 candidates only.",
+  "output_folder": "C:\\BTP1\\results\\2d\\20261015T093956052522Z",
+  "predictor_sha256": "d37fb953a5681e236ff34ee04e1cdf8f4c8562565b3920c2abdca1895709f65a",
+  "source_sha256": "6c052006c8002c6852c4e118c85dcc8a1676d1645f47153efbcda5a761b11e39",
+  "export_units": "Coordinates normalized by chord",
+  "physical_requirements_verified": false,
+  "limitations": [
+    "Section coefficients are surrogate estimates, not physical validation.",
+    "Search selects training shapes and coordinate blends.",
+    "Individual feature bounds do not establish joint operating coverage."
+  ]
+}

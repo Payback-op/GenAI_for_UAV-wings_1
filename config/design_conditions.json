@@ -1,0 +1,12 @@
+{
+  "angle_of_attack_deg": 4.0,
+  "reynolds_number": 100000,
+  "ncrit": 9.0,
+  "target_cl": 0.6,
+  "cl_tolerance": 0.05,
+  "maximum_cd": 0.03,
+  "minimum_thickness_ratio": 0.08,
+  "maximum_thickness_ratio": 0.18,
+  "candidate_count": 3000,
+  "random_seed": 42
+}

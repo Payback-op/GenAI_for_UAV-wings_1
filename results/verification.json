@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": {
+    "checksum_and_geometry_split_integrity": true,
+    "training_sample_uses_training_airfoils_only": true,
+    "saved_test_inference_reproduced_in_coefficient_units": true,
+    "selection_matches_validation_rmse": true,
+    "invalid_inputs_and_range_flags": true,
+    "generated_section_predictions_and_status_reproduced": true,
+    "mesh": {
+      "vertices": 3280,
+      "triangles": 6556,
+      "closed_manifold": true,
+      "consistent_orientation": true,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.00582931805412587,
+      "finite_vertices": true
+    },
+    "all_wing_stations_use_exact_2d_section": true,
+    "analytical_constant_twist_volume_span_and_area": true,
+    "stl_millimetre_and_obj_metre_roundtrip": true,
+    "no_match_and_invalid_condition_paths": true
+  }
+}

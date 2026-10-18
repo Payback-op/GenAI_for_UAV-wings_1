@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/*.zip*
+upstream/
+
+# Local runtime state and credentials
+*.pid
+*.log
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+Thumbs.db
+.DS_Store
